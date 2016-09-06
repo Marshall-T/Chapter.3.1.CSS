@@ -1,0 +1,112 @@
+/*  set main window margins, font & background*/
+body {
+    background-color: #000030;
+    margin: 0% 5%;
+    font-family: sans-serif, serif;
+}
+
+/*  match header & footer backgrounds & fonts   */
+header, footer {
+    margin: 0em 0em 1em 0em;
+    background-color: #3D6271;
+    color: #FFFFFF;
+}
+
+/*  set sections margins background color   */
+section    {
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+
+/*  align text in h1, h2 & h3   */
+h1  {
+    font-size: 1.75em;
+    padding: 0em .5em;
+}
+h2  {
+    margin: 0em 1em;
+}
+
+h3  {
+    margin: 0em 0em .5em 0em;
+    border-bottom: solid .1em #808080;
+    font-size: 1em;
+}
+
+/*  set nav links in line   */
+li  {
+    display: inline;
+    margin: .5em;
+}
+
+/*  link colors     */
+a   {
+    color: #00C0F0;
+}
+
+a:visited   {
+    color: #A000A0;
+}
+
+/*  navagation menu background color & spacing  */
+nav  {
+    padding: .2em .5em;
+    background-color: #608080;
+}
+
+/*  paragraph fonts*/
+p       {
+    font-family: "New Times Roman", Times;
+}
+
+/*  border around central park image    */
+figure a img  {
+    padding: .3em;
+    border: solid .1em #A0A0A0;
+}
+
+/*  gradiant behind share links locate & border     */
+figure div p {
+    height: 1em;
+    padding: .4em .6em;
+    background: url(images/gray-gradient.gif);
+    background-repeat: repeat-x;
+    border-radius: .3em;
+    border: solid .07em #C0C0C0;
+}
+
+/*  insert share graphic    */
+span.share {
+    content:url(images/share.png);
+    padding: 0em .3em 0em 0em;
+}​
+
+/*  by line and captions format */
+p.byline, figcaption {
+    font-family: "New Times Roman";
+    font-size: 85%;
+    font-style: italic;
+    color: #808080;
+}
+
+/*  under line and space the reviews    */
+div p:nth-child(2) {
+    border-bottom: solid .1em #808080;
+    margin-bottom: 1em;
+}
+
+/*  The above process the following should work, and it actually
+ *  did (or something close to it) work for a while, untile some
+ *  editing broke it and nothing seems to fix it?!! Am I dreming
+ *  here?
+ *  
+ *  #reviews {
+ *  border-bottom: solid .1em #808080;
+ *  margin-bottom: 1em;
+ *  }
+*/
+
+/*  space between Share gradiant and Related phtos  */
+article {
+    margin-bottom: 1em;
+}
